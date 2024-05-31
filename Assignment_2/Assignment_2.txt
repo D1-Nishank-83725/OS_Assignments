@@ -1,0 +1,441 @@
+1. List the directory contents date wise sorted. ( man ls)
+
+Ans: 
+
+nishank@nishank-Predator-G3-572:~$ ls -l -r -t
+total 52
+drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Videos
+drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Templates
+drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Public
+drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Music
+drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Documents
+drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Desktop
+drwxrwxr-x 2 nishank nishank 4096 Mar 24 23:03 'Sunbeam Docs'
+drwxr-xr-x 4 nishank nishank 4096 Apr  5 23:14  Pictures
+drwxrwxr-x 4 nishank nishank 4096 Apr  8 23:29 'My Practice'
+drwxrwxr-x 3 nishank nishank 4096 Apr 12 17:52  Postman
+drwx------ 7 nishank nishank 4096 Apr 13 16:43  snap
+drwxr-xr-x 4 nishank nishank 4096 Apr 20 16:03  Downloads
+drwxrwxr-x 8 nishank nishank 4096 May 31 18:37  SunBeam
+
+
+
+
+
+
+
+
+2. List the directory contents size wise sorted.(man ls)
+
+Ans: 
+
+nishank@nishank-Predator-G3-572:~$ ls -l -S -r
+total 52
+drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Videos
+drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Templates
+drwxrwxr-x 2 nishank nishank 4096 Mar 24 23:03 'Sunbeam Docs'
+drwxrwxr-x 8 nishank nishank 4096 May 31 18:37  SunBeam
+drwx------ 7 nishank nishank 4096 Apr 13 16:43  snap
+drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Public
+drwxrwxr-x 3 nishank nishank 4096 Apr 12 17:52  Postman
+drwxr-xr-x 4 nishank nishank 4096 Apr  5 23:14  Pictures
+drwxrwxr-x 4 nishank nishank 4096 Apr  8 23:29 'My Practice'
+drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Music
+drwxr-xr-x 4 nishank nishank 4096 Apr 20 16:03  Downloads
+drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Documents
+drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Desktop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. List directory contents along with their inode no. (man ls)
+
+Ans: 
+
+nishank@nishank-Predator-G3-572:~$ ls -l -i
+total 52
+ 786560 drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Desktop
+ 786567 drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Documents
+ 786563 drwxr-xr-x 4 nishank nishank 4096 Apr 20 16:03  Downloads
+ 786568 drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Music
+1186562 drwxrwxr-x 4 nishank nishank 4096 Apr  8 23:29 'My Practice'
+ 786569 drwxr-xr-x 4 nishank nishank 4096 Apr  5 23:14  Pictures
+1998780 drwxrwxr-x 3 nishank nishank 4096 Apr 12 17:52  Postman
+ 786566 drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Public
+ 786488 drwx------ 7 nishank nishank 4096 Apr 13 16:43  snap
+ 918539 drwxrwxr-x 8 nishank nishank 4096 May 31 18:37  SunBeam
+ 921744 drwxrwxr-x 2 nishank nishank 4096 Mar 24 23:03 'Sunbeam Docs'
+ 786565 drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Templates
+ 786570 drwxr-xr-x 2 nishank nishank 4096 Mar  6 12:09  Videos
+
+
+
+
+4. List the contents of the subdirectory.
+
+Ans: 
+
+Other than the Below ls -l -R     - will provide the long list format ( it was too big to paste here )
+              & also tree -l -R   - will provide the tree format hierarchy ( Graphically good to see )
+
+
+
+Command 1:
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule$ ls -R
+.:
+ClassWork.txt  os  OS_Assignments  TempOSFolderToExplore
+
+./os:
+Assignments  day01  OS_Galvin_Slides.pdf
+
+./os/Assignments:
+1_Linux_Command_assignment_I.pdf  2_Linux_commands_assignment_II.pdf  3_Linux_Commands_assignment_III.pdf  4_Linux_Commands_assignment_IV.pdf  5_Linux_Shell_Script_Assignments.pdf
+
+./os/day01:
+ classwork.txt     file3.txt                                 'Screenshot from 2024-05-31 11-16-43.png'  'Screenshot from 2024-05-31 13-18-52.png'  'Screenshot from 2024-05-31 14-57-54.png'
+ DAC-OS1.pdf       main.c                                    'Screenshot from 2024-05-31 11-22-25.png'  'Screenshot from 2024-05-31 13-29-02.png'  'Screenshot from 2024-05-31 15-11-50.png'
+ Day01_Notes.pdf   out.txt                                   'Screenshot from 2024-05-31 11-25-50.png'  'Screenshot from 2024-05-31 13-30-07.png'  'Screenshot from 2024-05-31 16-18-39.png'
+ error.txt        'Screenshot from 2024-05-31 09-19-29.png'  'Screenshot from 2024-05-31 12-09-36.png'  'Screenshot from 2024-05-31 14-40-48.png'
+ err.txt          'Screenshot from 2024-05-31 09-27-02.png'  'Screenshot from 2024-05-31 12-22-04.png'  'Screenshot from 2024-05-31 14-49-27.png'
+ file1.txt        'Screenshot from 2024-05-31 10-54-13.png'  'Screenshot from 2024-05-31 12-23-31.png'  'Screenshot from 2024-05-31 14-51-08.png'
+ file2.txt        'Screenshot from 2024-05-31 11-10-06.png'  'Screenshot from 2024-05-31 12-24-43.png'  'Screenshot from 2024-05-31 14-53-18.png'
+
+./OS_Assignments:
+Assignment_1  Assignment_2
+
+./OS_Assignments/Assignment_1:
+Assignment1.txt
+
+./OS_Assignments/Assignment_2:
+Assignment_2.txt
+
+./TempOSFolderToExplore:
+Temp1  Temp1.txt
+
+./TempOSFolderToExplore/Temp1:
+
+
+
+
+
+
+
+Command 2:
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule$ tree -R
+.
+├── ClassWork.txt
+├── os
+│   ├── Assignments
+│   │   ├── 1_Linux_Command_assignment_I.pdf
+│   │   ├── 2_Linux_commands_assignment_II.pdf
+│   │   ├── 3_Linux_Commands_assignment_III.pdf
+│   │   ├── 4_Linux_Commands_assignment_IV.pdf
+│   │   └── 5_Linux_Shell_Script_Assignments.pdf
+│   ├── day01
+│   │   ├── classwork.txt
+│   │   ├── DAC-OS1.pdf
+│   │   ├── Day01_Notes.pdf
+│   │   ├── error.txt
+│   │   ├── err.txt
+│   │   ├── file1.txt
+│   │   ├── file2.txt
+│   │   ├── file3.txt
+│   │   ├── main.c
+│   │   ├── out.txt
+│   │   ├── Screenshot from 2024-05-31 09-19-29.png
+│   │   ├── Screenshot from 2024-05-31 09-27-02.png
+│   │   ├── Screenshot from 2024-05-31 10-54-13.png
+│   │   ├── Screenshot from 2024-05-31 11-10-06.png
+│   │   ├── Screenshot from 2024-05-31 11-16-43.png
+│   │   ├── Screenshot from 2024-05-31 11-22-25.png
+│   │   ├── Screenshot from 2024-05-31 11-25-50.png
+│   │   ├── Screenshot from 2024-05-31 12-09-36.png
+│   │   ├── Screenshot from 2024-05-31 12-22-04.png
+│   │   ├── Screenshot from 2024-05-31 12-23-31.png
+│   │   ├── Screenshot from 2024-05-31 12-24-43.png
+│   │   ├── Screenshot from 2024-05-31 13-18-52.png
+│   │   ├── Screenshot from 2024-05-31 13-29-02.png
+│   │   ├── Screenshot from 2024-05-31 13-30-07.png
+│   │   ├── Screenshot from 2024-05-31 14-40-48.png
+│   │   ├── Screenshot from 2024-05-31 14-49-27.png
+│   │   ├── Screenshot from 2024-05-31 14-51-08.png
+│   │   ├── Screenshot from 2024-05-31 14-53-18.png
+│   │   ├── Screenshot from 2024-05-31 14-57-54.png
+│   │   ├── Screenshot from 2024-05-31 15-11-50.png
+│   │   └── Screenshot from 2024-05-31 16-18-39.png
+│   └── OS_Galvin_Slides.pdf
+├── OS_Assignments
+│   ├── Assignment_1
+│   │   └── Assignment1.txt
+│   └── Assignment_2
+│       └── Assignment_2.txt
+└── TempOSFolderToExplore
+    ├── Temp1
+    └── Temp1.txt
+
+8 directories, 41 files
+
+
+
+
+
+
+
+5. Create a file, write your surname and name in it and save.
+
+Ans: 
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2$ cat > A2Question5.txt
+Kose Nishank
+
+
+i. now open the same file and add your address in it and save.
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2$ cat >> A2Question5.txt
+Nagpur, Maharashtra
+
+
+ii. reopen the same file and check your name and address in it.
+
+
+ishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2$ cat < A2Question5.txt 
+Kose Nishank
+Nagpur, Maharashtra
+
+
+
+
+
+6. how to change the time stamp of file (man touch)
+
+Ans:
+
+touch your_file_name
+
+
+
+
+7. Create directory structure : Give following commands ,
+-> mkdir one
+-> cd one
+-> touch 1.txt 11.txt 111.txt
+-> mkdir two
+-> cd two
+-> touch 2.txt 22.txt 222.txt
+-> mkdir three
+-> cd three
+-> touch 3.txt 33.txt 333.txt
+-> mkdir four
+-> cd four
+-> touch 4.txt 44.txt 444.txt
+-> mkdir five
+-> cd five
+-> touch 5.txt 55.txt 555.txt
+-> cd ~ (i.e. go to your home directory)
+
+
+
+
+8. Considering above directory structure , Do following
+operations :
+i. list the directory contents of directory named
+"five" from current directory (i.e. home directory).
+
+Ans:
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2$ ls -l one/two/three/four/five/
+total 0
+-rw-rw-r-- 1 nishank nishank 0 May 31 22:19 555.txt
+-rw-rw-r-- 1 nishank nishank 0 May 31 22:19 55.txt
+-rw-rw-r-- 1 nishank nishank 0 May 31 22:19 5.txt
+
+
+
+
+ii. write your name in a file named "44.txt" of
+directory "four" from current directory.
+
+Ans: 
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2$ cat > one/two/three/four/44.txt
+Nishank Kose
+
+
+
+
+iii. remove the file named "555.txt" from directory
+"five" from current directory.
+
+Ans:
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2$ rm one/two/three/four/five/555.txt 
+
+
+
+
+iv. change directory to five
+( i.e. cd one/two/three/four/five/ ).
+
+
+Ans:
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2$ cd one/two/three/four/five/
+
+
+
+
+
+v. write your course name in file named "3.txt" which resides in directory "three" from current directory (i.e. five).
+also read the same file.
+
+Ans: 
+
+WRITE FROM FILE
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2/one/two/three/four/five$ cat > ../../3.txt
+PG-DAC
+
+READ INTO FILE
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2/one/two/three/four/five$ cat < ../../3.txt
+PG-DAC
+
+
+
+
+vi. list the contents of directory "two" from current directory (i.e. five).
+
+Ans: 
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2/one/two/three/four/five$ ls -l ../../../
+total 4
+-rw-rw-r-- 1 nishank nishank    0 May 31 22:17 222.txt
+-rw-rw-r-- 1 nishank nishank    0 May 31 22:17 22.txt
+-rw-rw-r-- 1 nishank nishank    0 May 31 22:17 2.txt
+drwxrwxr-x 3 nishank nishank 4096 May 31 22:18 three
+
+
+
+
+
+
+vii. remove file named "222.txt" which belongs to directory "two" from current directory (i.e. five)
+
+Ans: 
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2/one/two/three/four/five$ rm ../../../222.txt
+
+
+
+
+
+
+viii. now change the directory to "one"
+
+Ans: 
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2/one/two/three/four/five$ cd ../../../../
+
+
+
+
+
+ix. remove all files only from directory named "five" from current directory (i.e. one)
+
+Ans: 
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2/one$ rm -r two/three/four/five/*
+
+
+
+
+
+
+x. remove directory named "five" from current directory (i.e. one)
+
+Ans: 
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2/one$ rmdir two/three/four/five/
+
+
+
+
+
+
+xi. remove whole directory named "four" from current directory (i.e. one)
+
+Ans: 
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2/one$ rm -r two/three/four/
+
+
+
+
+
+
+xii. change to your home directory.
+
+Ans: 
+
+nishank@nishank-Predator-G3-572:~/SunBeam/OSModule/OS_Assignments/Assignment_2/one$ cd
+
+
+
+
+
+
+9. change the time stamp of file named "3.txt" which resides in directory named "three".(man touch)
+
+Ans: 
+
+
+Earlier: 
+
+nishank@nishank-Predator-G3-572:~$ ls -l /home/nishank/SunBeam/OSModule/OS_Assignments/Assignment_2/one/two/three/3.txt 
+-rw-rw-r-- 1 nishank nishank 7 May 31 22:42 /home/nishank/SunBeam/OSModule/OS_Assignments/Assignment_2/one/two/three/3.txt
+
+
+
+Executing the Touch Command: 
+
+nishank@nishank-Predator-G3-572:~$ touch /home/nishank/SunBeam/OSModule/OS_Assignments/Assignment_2/one/two/three/3.txt 
+
+
+After : 
+
+
+nishank@nishank-Predator-G3-572:~$ ls -l /home/nishank/SunBeam/OSModule/OS_Assignments/Assignment_2/one/two/three/3.txt 
+-rw-rw-r-- 1 nishank nishank 7 May 31 22:43 /home/nishank/SunBeam/OSModule/OS_Assignments/Assignment_2/one/two/three/3.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
