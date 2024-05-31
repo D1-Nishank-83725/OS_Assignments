@@ -1,0 +1,1000 @@
+ 1041  nvm install 20
+ 1042  node -v
+ 1043  sudo apt install nodejs
+ 1044  node -v
+ 1045  npm -v
+ 1046  sudo apt install npm
+ 1047  node -v
+ 1048  npm -v
+ 1049  node -v
+ 1050  sudo apt-get update -y
+ 1051  sudo apt-get install -y ca-certificates curl gnupg
+ 1052  sudo mkdir -p /etc/apt/keyrings
+ 1053  curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+ 1054  NODE_MAJOR=20
+ 1055  echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+ 1056  sudo apt-get update
+ 1057  sudo apt-get install -y nodejs
+ 1058  node -v
+ 1059  npm -v
+ 1060  nvm -v
+ 1061  npm -v
+ 1062  node -v
+ 1063  npm cache clean --force
+ 1064  npm install -g n
+ 1065  nvm --version
+ 1066  sudo apt update
+ 1067  sudo apt install nodejs
+ 1068  node -v
+ 1069  sudo apt install npm
+ 1070  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh
+ 1071  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+ 1072  source ~/.bashrc
+ 1073  nvm list-remote
+ 1074  nvm install v20.12.2
+ 1075  nvm -v
+ 1076  node -v
+ 1077  npm -v
+ 1078  node -v
+ 1079  code .
+ 1080  node "page1practice.js" 
+ 1081  node "page2practice.js" 
+ 1082  node "page3practice.js" 
+ 1083  node "page4practice.js" 
+ 1084  cls
+ 1085  cls scn
+ 1086  clear
+ 1087  node "page5practice.js" 
+ 1088  node "page6practice.js" 
+ 1089  node "page1.js"
+ 1090  node "page5.js"
+ 1091  code 
+ 1092  code .
+ 1093  git pull
+ 1094  code .
+ 1095  curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
+ 1096  postman -v
+ 1097  mysql -u D1_83725_NISHANK -p
+ 1098  mysql -u root -p
+ 1099  mysql -u mernnishank -p
+ 1100  mysql -u root -p
+ 1101  mysql -u mernnishank -p
+ 1102  mysql -u root -p
+ 1103  mysql -u mernnishank -p
+ 1104  mysql -u root -p
+ 1105  mysql -u mernnishank -p
+ 1106  node page5.js
+ 1107  node page6.js
+ 1108  node "page4.js"
+ 1109  node "page5.js"
+ 1110  node "page6.js"
+ 1111  node "page6practice.js"
+ 1112  code .
+ 1113  mysql -u mernnishank -p
+ 1114  cd app1
+ 1115  npm install express
+ 1116  node server.js
+ 1117  npm install express
+ 1118  node server.js
+ 1119  cd ..
+ 1120  cd app2
+ 1121  node server.js
+ 1122  npm install express
+ 1123  node server.js
+ 1124  code .
+ 1125  node server.js
+ 1126  cd app3
+ 1127  node server.js
+ 1128  clear
+ 1129  node server.js
+ 1130  clear
+ 1131  node server.js
+ 1132  clear
+ 1133  npm install express
+ 1134  npm install mysql2
+ 1135  node server.js
+ 1136  clear
+ 1137  node server.js
+ 1138  clear
+ 1139  node server.js
+ 1140  clear
+ 1141  node server.js
+ 1142  clera
+ 1143  clear
+ 1144  cd ..
+ 1145  cd app4
+ 1146  node server.js
+ 1147  npm install express
+ 1148  npm install mysql2
+ 1149  node server.js
+ 1150  clear
+ 1151  node server.js
+ 1152  clear
+ 1153  node server.js
+ 1154  clear
+ 1155  node server.js
+ 1156  clear
+ 1157  node server.js
+ 1158  cd ..
+ 1159  cd app5
+ 1160  node server.js
+ 1161  npm install express mysql2
+ 1162  node server.js
+ 1163  clear
+ 1164  node server.js
+ 1165  mysql -u mernnishank -p
+ 1166  code .
+ 1167  code .
+ 1168  cd Papp5
+ 1169  node server.js
+ 1170  clear
+ 1171  node server.js
+ 1172  node server.js
+ 1173  cd app5
+ 1174  node server.js
+ 1175  clear
+ 1176  mysql -u 'mernnishank' -p
+ 1177  exit
+ 1178  sudo apt install snapd
+ 1179  sudo snap install postman
+ 1180  code .
+ 1181  cd Papp42ndTIme
+ 1182  cd Papp42ndTime
+ 1183  npm install express mysql2
+ 1184  node server.js
+ 1185  cd ..
+ 1186  cp Papp52ndTime/
+ 1187  cp Papp52ndTime
+ 1188  cd Papp52ndTime/
+ 1189  npm install express mysql2
+ 1190  node server.js
+ 1191  clear
+ 1192  node server.js
+ 1193  clear
+ 1194  node server.js
+ 1195  clear
+ 1196  node server.js
+ 1197  code ,
+ 1198  code .
+ 1199  node server.js
+ 1200  code .
+ 1201  git pull
+ 1202  code .
+ 1203  sudo npm install -g nodeman yarn pm2
+ 1204  code .
+ 1205  yarn add express mysql2
+ 1206  cd app2
+ 1207  node server.js
+ 1208  yarn add express mysql2
+ 1209  node server.js
+ 1210  cd app1
+ 1211  node server.js
+ 1212  yarn add express mysql2
+ 1213  node server.js
+ 1214  yarn add express mysql2
+ 1215  node server.js
+ 1216  node test.js
+ 1217  cd ..
+ 1218  cd app2
+ 1219  node test.js
+ 1220  clear
+ 1221  cd ..
+ 1222  cd app3
+ 1223  yarn add express mysql2
+ 1224  mysql -u mernnishank -p
+ 1225  sudo npm install -g nodemon yarn pm2
+ 1226  node server.js
+ 1227  clear
+ 1228  node server.js
+ 1229  clear
+ 1230  yarn add express mysql2
+ 1231  clear
+ 1232  yarn add express
+ 1233  cd ..
+ 1234  cd app2
+ 1235  yarn add express mysql2
+ 1236  cd ..
+ 1237  cd app3
+ 1238  yarn add express mysql2
+ 1239  nodemon server.js
+ 1240  clear
+ 1241  nodemon node.js
+ 1242  nodemon server.js
+ 1243  clear
+ 1244  nodemon server.js
+ 1245  clear
+ 1246  nodemon server.js
+ 1247  clear
+ 1248  yarn add crypto-js
+ 1249  clear
+ 1250  nodemon server.js
+ 1251  clear
+ 1252  nodemon server.js
+ 1253  code .
+ 1254  node server.js
+ 1255  clear
+ 1256  cd ..
+ 1257  cd app3
+ 1258  node server.js
+ 1259  npm install mysql2 express 
+ 1260  node server.js
+ 1261  nodemon server.js
+ 1262  clear
+ 1263  code .
+ 1264  cd Papp3
+ 1265  nodemon server.js
+ 1266  mysql -u mernnishank -p
+ 1267  code .
+ 1268  code .
+ 1269  mysql -u mernnishank -p
+ 1270  code .
+ 1271  mysql -u mernnishank -p
+ 1272  code .
+ 1273  cd Papp4/
+ 1274  ls
+ 1275  nodemon server.js 
+ 1276  yarn add express mysql2 crypto-js
+ 1277  nodemon server.js 
+ 1278  clear
+ 1279  nodemon server.js 
+ 1280  clear
+ 1281  nodemon server.js
+ 1282  clear
+ 1283  cd app4
+ 1284  nodemon server.js
+ 1285  code .
+ 1286  cd Papp4
+ 1287  yarn add express mysql2 crypto-js
+ 1288  nodemon server.js
+ 1289  clear
+ 1290  code .
+ 1291  mysql -u mernnishank -p
+ 1292  nodemon server.js
+ 1293  code .
+ 1294  cd Vijay
+ 1295  nodemon server.js
+ 1296  mysql -u mernnishank -p
+ 1297  code .
+ 1298  nodemon server.js
+ 1299  clear
+ 1300  yarn add express mysql2 crypto-js
+ 1301  nodemon server.js
+ 1302  clear
+ 1303  nodemon server.js
+ 1304  clear
+ 1305  nodemon server.js
+ 1306  code .
+ 1307  mysql -u mernnishank -p
+ 1308  git pull
+ 1309  code .
+ 1310  code .
+ 1311  mysql -u mernnishank -p
+ 1312  code .
+ 1313  cd FinalappwithJWT
+ 1314  node server.js
+ 1315  nodemon server.js
+ 1316  nodemon server.js
+ 1317  code .
+ 1318  yarn add express mysql2 jsonwebtoken crypto
+ 1319  yarn add crypto-js
+ 1320  code .
+ 1321  code .
+ 1322  node server.js
+ 1323  yarn add express
+ 1324  node server.js
+ 1325  nodemon server.js
+ 1326  yarn add nodemailer
+ 1327  nodemon server.js
+ 1328  code .
+ 1329  nodemon server.js
+ 1330  clear
+ 1331  nodemon server.js
+ 1332  nodemon server.js
+ 1333  mysql -u mernnishank -p
+ 1334  mysql -u root -p
+ 1335  mysql -u mernnishank -p
+ 1336  mysql -u root -p
+ 1337  mysql -u mernnishank -p
+ 1338  code .
+ 1339  npx create_react_app PracticeApp4
+ 1340  clear
+ 1341  npx create-react-app PracticeApp4
+ 1342  npx create-react-app practiceapp4
+ 1343  npm run start
+ 1344  cd app4
+ 1345  yarn start
+ 1346  yarn start
+ 1347  yarn test
+ 1348  YARN START
+ 1349  yarn start
+ 1350  code .
+ 1351  cd app5
+ 1352  yarn start
+ 1353  npx create-react-app practiceapp5
+ 1354  cd practiceapp4
+ 1355  yarn start
+ 1356  cd ..
+ 1357  cd practiceapp5
+ 1358  yarn start
+ 1359  git pull
+ 1360  code .
+ 1361  code .
+ 1362  cd app1
+ 1363  cd..
+ 1364  cd ..
+ 1365  cd pracitceapp1/
+ 1366  npx create-react-app practiceapp1
+ 1367  cd ..
+ 1368  npx create-react-app practiceapp1
+ 1369  yarn start
+ 1370  cd practiceapp1
+ 1371  yarn start
+ 1372  cd ..
+ 1373  cd practiceapp2
+ 1374  cd ..
+ 1375  cd..
+ 1376  cd ..
+ 1377  cd /Sunbeam
+ 1378  cd ..
+ 1379  cd SunBeam
+ 1380  cd MERN Module/MERN_Practice/Day_5/
+ 1381  cd MERN Module
+ 1382  code .
+ 1383  cd app2
+ 1384  yarn start
+ 1385  cd ..
+ 1386  cd app3
+ 1387  npm i
+ 1388  yarn start
+ 1389  cd practiceapp2
+ 1390  yarn start
+ 1391  cd ..
+ 1392  npx create-react-app practiceapp3
+ 1393  cd practiceapp5
+ 1394  cd practiceapp3
+ 1395  yarn start
+ 1396  yarn add axios
+ 1397  yarn start
+ 1398  yarn add mysql2 express cors
+ 1399  npm install express
+ 1400  clear
+ 1401  npx create-react-app practiceapp3
+ 1402  cd practiceapp3server/
+ 1403  yarn add express mysql2 cors
+ 1404  cd app3
+ 1405  yarn start
+ 1406  yarn add axios
+ 1407  npx create-react-app practiceapp3
+ 1408  code .
+ 1409  code .
+ 1410  clear
+ 1411  yarn start
+ 1412  cd ..
+ 1413  cd app3-server/
+ 1414  node server.js
+ 1415  yarn add express mysql2 
+ 1416  node server.js
+ 1417  code .
+ 1418  mysql -u mernnishank -p
+ 1419  cd app3
+ 1420  yarn start
+ 1421  cd 
+ 1422  code .
+ 1423  yarn start
+ 1424  npm i
+ 1425  cd practiceapp3
+ 1426  npm i
+ 1427  cd practiceapp3
+ 1428  yarn start
+ 1429  yarn add axios
+ 1430  yarn start
+ 1431  cd practiceapp3server
+ 1432  nodemon server.js
+ 1433  code .
+ 1434  mysql-u mernnishank -p
+ 1435  mysql -u mernnishank -p
+ 1436  cd app2
+ 1437  yarn start
+ 1438  clear
+ 1439  git pull
+ 1440  git pull
+ 1441  code .
+ 1442  cd code/app1
+ 1443  npm i
+ 1444  yarn start
+ 1445  code .
+ 1446  code .
+ 1447  git pull
+ 1448  yarn add express mysql2 cors crypto-js 
+ 1449  cd practiceapp1server
+ 1450  yarn add express mysql2 cors
+ 1451  cd ..
+ 1452  cd practiceapp1
+ 1453  npx create-react-app practiceapp1
+ 1454  cd ..
+ 1455  cd app1
+ 1456  yarn start
+ 1457  mysql -u mernnishank -p
+ 1458  cd practiceapp1server
+ 1459  nodemon server.js
+ 1460  yarn add crypto-js
+ 1461  nodemon server.js
+ 1462  yarn add mysql2 jsonwebtoken 
+ 1463  nodemon server.js
+ 1464  clear
+ 1465  nodemon server.js
+ 1466  cd app1
+ 1467  yarn start
+ 1468  npx create-react-app practiceapp1
+ 1469  yarn start
+ 1470  cd practiceapp1
+ 1471  yarn start
+ 1472  yarn add react-router-dom
+ 1473  yarn start
+ 1474  yarn add axios
+ 1475  yarn start
+ 1476  cd app1-server
+ 1477  nodemon server.js
+ 1478  yarn add express mysql2
+ 1479  nodemon server.js
+ 1480  clear
+ 1481  code .
+ 1482  cd practiceapp1server
+ 1483  nodemon server.js
+ 1484  npx create-react-app app1
+ 1485  cd app1server
+ 1486  yarn add express mysql2 cors jsonwebtoken crypto-js
+ 1487  git status
+ 1488  git pull
+ 1489  git stats
+ 1490  git status
+ 1491  git restore .
+ 1492  git status
+ 1493  cd app1-server
+ 1494  nodemon server.js
+ 1495  clear
+ 1496  cd app1
+ 1497  cd ..
+ 1498  cd app1
+ 1499  yarn start
+ 1500  code .
+ 1501  sudo kill -9 `sudo lsof -t -i:4000`
+ 1502  mysql -u mernnishank -p 
+ 1503  cd app1
+ 1504  yarn start
+ 1505  clear
+ 1506  cd app1-server
+ 1507  nodemon server.js
+ 1508  clear
+ 1509  nodemon server.js
+ 1510  clear
+ 1511  nodemon server.js
+ 1512  clear
+ 1513  code .
+ 1514  cd Papp1server/
+ 1515  nodemon server.js
+ 1516  clear
+ 1517  nodemon server.js
+ 1518  clear
+ 1519  nodemon server.js
+ 1520  clear
+ 1521  nodemon server.js
+ 1522  clear
+ 1523  nodemon server.js
+ 1524  cd ..
+ 1525  cd Papp1
+ 1526  cd HomePracticeApp1/
+ 1527  cd Papp1
+ 1528  yarn start
+ 1529  clear
+ 1530  yarn add react-router-dom
+ 1531  yarn start
+ 1532  yarn add axios
+ 1533  yarn start
+ 1534  clear
+ 1535  npm start
+ 1536  npm i
+ 1537  yarn start
+ 1538  clear
+ 1539  yarn start
+ 1540  clear
+ 1541  yarn start
+ 1542  code .
+ 1543  cd app1
+ 1544  yarn start
+ 1545  cd project-3-backend/
+ 1546  nodemon server.js
+ 1547  cd project-3-frontend/
+ 1548  yarn start
+ 1549  npm i
+ 1550  yarn start
+ 1551  mysql -u mernnishank -p
+ 1552  code .
+ 1553  cd FinalPracticeServer/
+ 1554  npx create-react-app FinalPractice
+ 1555  npx create-react-app finalpractice
+ 1556  cd ..
+ 1557  cd FinalPracticeServer/
+ 1558  clear
+ 1559  cd ..
+ 1560  cd finalpractice/
+ 1561  yarn add axios browserrouter
+ 1562  yarn add react-router-dom
+ 1563  yarn start
+ 1564  yarn add toastify
+ 1565  yarn start
+ 1566  yarn add react-toastify
+ 1567  yarn start
+ 1568  yarn add axios
+ 1569  yarn start
+ 1570  cd FinalPracticeServer/
+ 1571  yarn install express mysql2 cors 
+ 1572  yarn add express cors mysql2
+ 1573  cd finalpractice
+ 1574  npx create-react-app finalpractice
+ 1575  cd ..
+ 1576  npx create-react-app finalpractice
+ 1577  code .
+ 1578  code .
+ 1579  cd backend
+ 1580  yarn add express mysql2 cors
+ 1581  yarn add crypto-js
+ 1582  nodemon server.js
+ 1583  npx create-react-app frontend
+ 1584  code .
+ 1585  sudo kill -9 `sudo lsof -t -i:4000`
+ 1586  code .
+ 1587  cd frontend
+ 1588  npm i
+ 1589  yarn start
+ 1590  cd backend
+ 1591  nodemon server.js
+ 1592  clear
+ 1593  nodemon server.js
+ 1594  clear
+ 1595  nodemon server.js
+ 1596  clear
+ 1597  nodemon server.js
+ 1598  mysql -u mernnishank -p
+ 1599  code .
+ 1600  code .
+ 1601  sudo kill 'sudo lsof -t -i:4000'
+ 1602  sudo kill -9 `sudo lsof -t -i:4000`
+ 1603  code .
+ 1604  mysql -u mernnishank -p
+ 1605  cd Client
+ 1606  yarn add express mysql2 cors 
+ 1607  npx create-react-app Client
+ 1608  cd ..
+ 1609  npx create-react-app Client
+ 1610  npx create-react-app client
+ 1611  cd client
+ 1612  yarn add React ReactDOM react-router-dom
+ 1613  yarn add react-router-dom
+ 1614  yarn start
+ 1615  yarn add axios toastify
+ 1616  yarn start
+ 1617  yarn add react-toastify
+ 1618  yarn start
+ 1619  cd app1
+ 1620  yarn start
+ 1621  code .
+ 1622  cd client
+ 1623  nodemon server.js
+ 1624  clear
+ 1625  cd ..
+ 1626  cd server
+ 1627  nodemon server.js
+ 1628  cd server
+ 1629  cd Server
+ 1630  nodemon server.js
+ 1631  sudo apt install network manager
+ 1632  sudo apt install network-manager
+ 1633  cd /etc/netplan
+ 1634  dir
+ 1635  sudo nano 01-network-manager-all.yaml
+ 1636  sudo netplan apply
+ 1637  code .
+ 1638  cd backend
+ 1639  yarn add express mysql2 cors 
+ 1640  cd
+ 1641  cd ..
+ 1642  cd frontend
+ 1643  npx create-react-app frontend
+ 1644  clear
+ 1645  dir
+ 1646  cd WPT_Module_End_Project/
+ 1647  npx create-react-app frontend
+ 1648  code .
+ 1649  cd frontend
+ 1650  yarn add react-router-dom
+ 1651  cd apr17/app3
+ 1652  cd apr17/code/app3
+ 1653  yarn start
+ 1654  code .
+ 1655  git pull
+ 1656  code .
+ 1657  npx create-react-app client
+ 1658  yarn add react-router-dom
+ 1659  yarn add axios
+ 1660  yarn start
+ 1661  cd client
+ 1662  yarn start
+ 1663  yarn add react-toastify
+ 1664  mysql -u mernnishank -p
+ 1665  cd server
+ 1666  nodemon server.js
+ 1667  cd client
+ 1668  yarn start
+ 1669  clear
+ 1670  yarn start
+ 1671  code .
+ 1672  nodemon server.js
+ 1673  yarn start
+ 1674  code .
+ 1675  mysql -u mernnishank -p
+ 1676  sudo kill -9 `sudo lsof -t -i:4000`
+ 1677  cd frontend
+ 1678  yarn start
+ 1679  cd backend
+ 1680  cd ..
+ 1681  cd backend
+ 1682  nodemon server.js
+ 1683  clear
+ 1684  nodemon server.js
+ 1685  code .
+ 1686  cd server
+ 1687  nodemon server.js
+ 1688  cd client
+ 1689  yarn start
+ 1690  clear
+ 1691  yarn start
+ 1692  npx create-react-app client
+ 1693  yarn add react-router-dom react-toastify
+ 1694  cd client
+ 1695  yarn start
+ 1696  yarn add axois
+ 1697  yarn add axios
+ 1698  yarn start
+ 1699  code .
+ 1700  mysql -u mernnishank -p
+ 1701  code .
+ 1702  cd backend
+ 1703  yarn add express cors mysql2 
+ 1704  code .
+ 1705  npx create react app frontend
+ 1706  npx create-react-app frontend
+ 1707  cd frontend
+ 1708  yarn add axios jsonwebtoken
+ 1709  yarn start
+ 1710  yarn add react-router-dom
+ 1711  yarn start
+ 1712  cd Server
+ 1713  cd WPT_240344220131/LabExam/client/
+ 1714  cd frontend
+ 1715  cd client
+ 1716  cd WPT_240344220131/LabExam/Server/
+ 1717  code .
+ 1718  cd KG_1\(To-Do\)/
+ 1719  cd backend
+ 1720  nodemon server.js
+ 1721  clear
+ 1722  nodemon server.js
+ 1723  clear
+ 1724  cd KG_1\(To-Do\)/
+ 1725  cd frontend/
+ 1726  yarn start
+ 1727  clear
+ 1728  yarn start
+ 1729  code .
+ 1730  cd app1
+ 1731  yarn start
+ 1732  cd Server
+ 1733  nodemon server.js
+ 1734  npm i
+ 1735  nodemon server.js
+ 1736  clear
+ 1737  nodemon server.js
+ 1738  clear
+ 1739  nodemon server.js
+ 1740  cd client
+ 1741  yarn start
+ 1742  npm i
+ 1743  yarn start
+ 1744  yarn add react-router-dom
+ 1745  clear
+ 1746  yarn start
+ 1747  rm -rf node_modules
+ 1748  npm i
+ 1749  yarn start
+ 1750  cd ..
+ 1751  rm -rf node_modules
+ 1752  rm -rf node_modules/
+ 1753  cd client
+ 1754  rm -rf node_modules/
+ 1755  npm i
+ 1756  yarn start
+ 1757  git status
+ 1758  git commit -m "Windows Scene"
+ 1759  git add .
+ 1760  git commit -m "Windows Scene"
+ 1761  git push
+ 1762  git add .
+ 1763  git commit -m "Windows Scene"
+ 1764  git push
+ 1765  git add .
+ 1766  git status
+ 1767  git add .
+ 1768  git status
+ 1769  git commit -m "Ignore"
+ 1770  git push
+ 1771  mysql -u mernnishank -p
+ 1772  cd backend
+ 1773  nodemon server.js
+ 1774  code .
+ 1775  git clone https://github.com/sunbeam-dac-march2024/os
+ 1776  cls
+ 1777  clear
+ 1778  git clone https://github.com/sunbeam-dac-march2024/os
+ 1779  git clone
+ 1780  clear
+ 1781  git clone https://github.com/sunbeam-dac-march2024/os
+ 1782  git status
+ 1783  git add .
+ 1784  git status
+ 1785  git push
+ 1786  git add .
+ 1787  git status
+ 1788  touch Assignment_1.txt
+ 1789  git clone https://github.com/D1-Nishank-83725/OS_Assignments.git
+ 1790  clear
+ 1791  git status
+ 1792  clear
+ 1793  git clear
+ 1794  clear
+ 1795  touch Temp1.txt
+ 1796  man
+ 1797  man man
+ 1798  ls /
+ 1799  ls -l /
+ 1800  factor 69
+ 1801  ls -l /Home
+ 1802  ls -l /home
+ 1803  ls cd nishank
+ 1804  cd nishank
+ 1805  /home
+ 1806  cd /home
+ 1807  cd /nishank
+ 1808  ls -l home
+ 1809  ls -l 
+ 1810  cd nishank
+ 1811  clear
+ 1812  man printf
+ 1813  man 2 printf
+ 1814  man printf
+ 1815  man man
+ 1816  echo $SHELL
+ 1817  echo $HOME
+ 1818  echo $USER
+ 1819  echo $LANG
+ 1820  env
+ 1821  echo $QT_IM_MODULE 
+ 1822  ls
+ 1823  cd SunBeam/
+ 1824  export path=/home/nishank/SunBeam/OS Module/TempOSFolderToExplore/:$PATH
+ 1825  export path="/home/nishank/SunBeam/OS Module/TempOSFolderToExplore"/:$PATH
+ 1826  Temp1.txt
+ 1827  echo $PATH
+ 1828  cd Temp1
+ 1829  ls Temp1
+ 1830  which ls
+ 1831  pwd
+ 1832  cat Temp1.txt
+ 1833  echo $PATH
+ 1834  man echo
+ 1835  man 2 echo
+ 1836  man echo
+ 1837  man echo $PATH
+ 1838  export path=$PATH:/home/nishank/SunBeam/OS Module/TempOSFolderToExplore/
+ 1839  export path=$PATH/home/nishank/SunBeam/OS Module/TempOSFolderToExplore/
+ 1840  export PATH=$PATH/home/nishank/SunBeam/OS Module/TempOSFolderToExplore/
+ 1841  clear
+ 1842  export PATH=/home/nishank/SunBeam/OS Module/TempOSFolderToExplore/:$PATH
+ 1843  export PATH=/home/nishank/SunBeam/OS Module/TempOSFolderToExplore:$PATH
+ 1844  export PATH=/home/nishank/SunBeam/OS\ Module/TempOSFolderToExplore:$PATH
+ 1845  echo $PATH
+ 1846  echo
+ 1847  echo $PATH
+ 1848  export PATH=/home/nishank/SunBeam/OS\ Module/TempOSFolderToExplore:$PATH
+ 1849  echo $PATH
+ 1850  cat Temp1.tx
+ 1851  cat Temp1.txt
+ 1852  cat /Temp1.txt
+ 1853  cat Temp1.txt
+ 1854  echo $VAR
+ 1855  echo $var
+ 1856  ls -l
+ 1857  ls -l -R
+ 1858  clear
+ 1859  ls -l -i
+ 1860  ls -a
+ 1861  ls --all
+ 1862  ls -A
+ 1863  ls -l -h
+ 1864  ls -l -s
+ 1865  ls -l -S
+ 1866  ls -l -S -r
+ 1867  ls -R
+ 1868  clear
+ 1869  ls 
+ 1870  cd SunBeam/
+ 1871  ls
+ 1872  ls -l
+ 1873  ls -l -R
+ 1874  clear
+ 1875  ls -l
+ 1876  cd /ls -l
+ 1877  clear
+ 1878  ls -l
+ 1879  cd /OS\ Module
+ 1880  cd OS\ Module
+ 1881  cd /home/nishank/SunBeam/OS Module/OS_Assignments/Assignment_1/
+ 1882  cd /home/nishank/SunBeam/OS\ Module/OS_Assignments/Assignment_1/
+ 1883  mkdir /tmp/movies
+ 1884  ls /
+ 1885  /tmp
+ 1886  cd
+ 1887  /tmp
+ 1888  cd /tmp
+ 1889  ls -l
+ 1890  rm movies
+ 1891  rmdir movies
+ 1892  ls
+ 1893  cd ..
+ 1894  ls
+ 1895  clear
+ 1896  ls -a
+ 1897  cd /home/nishank/SunBeam/OS\ Module/OS_Assignments/
+ 1898  mkdir tmp/movies
+ 1899  mkdir tmp/Movies
+ 1900  mkdir -R tmp/Movies
+ 1901  mkdir -r tmp/Movies
+ 1902  mkdir tmp
+ 1903  ls
+ 1904  echo $PAth
+ 1905  echo $PATH
+ 1906  export PATH=/home/nishank/SunBeam/OS\ Module/TempOSFolderToExplore:$PATH
+ 1907  echo $PATH
+ 1908  cat Temp1.txt
+ 1909  cat /home/nishank/SunBeam/OS Module/TempOSFolderToExplore/Temp1.txt
+ 1910  cat /home/nishank/SunBeam/OS\ Module/TempOSFolderToExplore/Temp1.txt
+ 1911  cat /home/nishank/SunBeam/OSModule/TempOSFolderToExplore/Temp1.txt
+ 1912  cat Temp1.txt
+ 1913  echo $PATH
+ 1914  export PATH=/home/nishank/SunBeam/OSModule/TempOSFolderToExplore:$PATH
+ 1915  echo $PATH
+ 1916  cat Temp1.txt
+ 1917  cd /home/nishank/SunBeam/OSModule/OS_Assignments/
+ 1918  mkdir tmp/movies tmp/songs
+ 1919  mkdir tmp/movies
+ 1920  mkdir tmp
+ 1921  mkdir -p tmp/Movies tmp/Songs
+ 1922  mkdir -p  temp/Movies/Inception.txt
+ 1923  mkdir -p tmp/Movies/Inception
+ 1924  mkdir -p tmp/Movies/Inception tmp/Songs/Ghazal/TumItnaJo
+ 1925  tree
+ 1926  sudo apt  install tree  # version 2.0.2-1
+ 1927  tree
+ 1928  cd tmp/Songs/Ghazal/TumItnaJo/
+ 1929  cat > cd..
+ 1930  cd ..
+ 1931  cat > tmp/Songs/Ghazal/TumItnaJo/tumitnajolyrics.txt
+ 1932  cd /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Ghazal/TumItnaJo/
+ 1933  cat > PehlaNasha.txt
+ 1934  cat >> PehlaNasha.txt
+ 1935  cd ..
+ 1936  mkdir Romantic
+ 1937  mkdir -p PehlaNasha
+ 1938  mkdir -p Romantic/PehlaNasha
+ 1939  cat /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Ghazal/TumItnaJo/
+ 1940  cat /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Ghazal/TumItnaJo/PehlaNasha.txt 
+ 1941  cat -n /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Ghazal/TumItnaJo/PehlaNasha.txt 
+ 1942  tac -n /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Ghazal/TumItnaJo/PehlaNasha.txt 
+ 1943  tac /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Ghazal/TumItnaJo/PehlaNasha.txt 
+ 1944  rev /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Ghazal/TumItnaJo/PehlaNasha.txt 
+ 1945  cp /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Ghazal/TumItnaJo/PehlaNasha.txt /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Romantic/PehlaNasha/
+ 1946  mv /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Ghazal/TumItnaJo/PehlaNasha.txt /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Romantic/PehlaNasha/
+ 1947  mv -R /home/nishank/SunBeam/OSModule/R&B/ /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/
+ 1948  mv -r /home/nishank/SunBeam/OSModule/R&B/ /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/
+ 1949  mv -R /home/nishank/SunBeam/OSModule/R&B/ /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/
+ 1950  mv -R /home/nishank/SunBeam/OSModule/R&B /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs
+ 1951  mv /home/nishank/SunBeam/OSModule/R&B/ /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/
+ 1952  mv /home/nishank/SunBeam/OSModule/R&B /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs
+ 1953  cd /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Movies/Inception/
+ 1954  cat > incept.txt
+ 1955  mv incept.txt Inception.txt
+ 1956  mv /home/nishank/SunBeam/OSModule/R&B/ /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/
+ 1957  mv /home/nishank/SunBeam/OSModule/RnB/ /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/
+ 1958  clear
+ 1959  cd ..
+ 1960  cd /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/
+ 1961  cd ../../../../
+ 1962  cd OSModule/
+ 1963  cd tmp
+ 1964  cd -p OS_Assignments/tmp
+ 1965  cd  OS_Assignments/tmp
+ 1966  ls *.txt
+ 1967  ls -p *.txt
+ 1968  ls -r *.txt
+ 1969  ls -R *.txt
+ 1970  ls -R
+ 1971  cd /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Movies/Inception/
+ 1972  mv Inception.txt .Inception.txt
+ 1973  mv .Inception.txt Inception.txt
+ 1974  rmdir /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Romantic/
+ 1975  rm /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Romantic/
+ 1976  rm -R /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/Romantic/
+ 1977  cd /home/nishank/SunBeam/OSModule/OS_Assignments/tmp/Songs/RnB/GetYouDanielCeaser/
+ 1978  touch GetYou.txt
+ 1979  head 1 GetYou.txt
+ 1980  head -1 GetYou.txt
+ 1981  head -5 GetYou.txt
+ 1982  tail -5 GetYou.txt 
+ 1983  factor 69
+ 1984  history
+ 1985  history > /home/nishank/SunBeam/OSModule/ClassWork.txt
+ 1986  wc < /home/nishank/SunBeam/OSModule/ClassWork.txt 
+ 1987  cd .
+ 1988  cd ..
+ 1989  cd
+ 1990  uname
+ 1991  pwd
+ 1992  hostname
+ 1993  date
+ 1994  cal
+ 1995  ncal
+ 1996  sudo apt install ncal
+ 1997  ncal
+ 1998  tree 
+ 1999  clear
+ 2000  dir
+ 2001  ls
+ 2002  cd SunBeam/
+ 2003  cd OSModule/
+ 2004  cd TempOSFolderToExplore/
+ 2005  cd ..
+ 2006  cd OS_Assignments/
+ 2007  cat filetoDelete.txt
+ 2008  cat > filetoDelete.txt
+ 2009  mkdir dirToDelete
+ 2010  rmdir dirToDelete/
+ 2011  rm filetoDelete.txt 
+ 2012  alias 789=ls
+ 2013  789
+ 2014  unalias
+ 2015  dir
+ 2016  ls
+ 2017  ls -l
+ 2018  ls -l -r
+ 2019  cd 
+ 2020  ls
+ 2021  cd SunBeam/
+ 2022  ls
+ 2023  ls OSModule/
+ 2024  ls
+ 2025  cd OSModule/
+ 2026  cd OS_Assignments/
+ 2027  ls
+ 2028  ls /temp /abcd > out.txt 2> err.txt
+ 2029  ls sort
+ 2030  sort
+ 2031  man sort
+ 2032  cd tmp
+ 2033  cd cd 
+ 2034  cd ..
+ 2035  touch temp1.txt
+ 2036  touch temp2.txt
+ 2037  cat < temp1.txt
+ 2038  sort temp1.txt
+ 2039  uniq temp1.txt
+ 2040  history > Assignment1Commands.txt
