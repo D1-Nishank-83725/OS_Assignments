@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo "Enter the Path"
+
+read path
+
+if [ -e $path ]
+then
+	if [ -f $path ]
+	then
+		du -s $path
+	elif [ -d $path ]
+	then
+		ls -l $path
+	else
+		echo "Neither File nor Directory"
+	fi
+else
+	echo "Path Invalid"
+fi

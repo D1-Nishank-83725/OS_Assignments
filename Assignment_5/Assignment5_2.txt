@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+while true 
+
+
+do
+	echo "1. Date, 2. Cal, 3. Ls, 4. Pwd, 5. Exit"
+	echo -n "Enter your Choice: "
+	read choice
+
+	case $choice in
+		1) date
+   		;;
+   		2) ncal
+    	;;
+    	3) ls -l 
+    	;;
+    	4) pwd 
+    	;;
+    	5) exit 0
+   		;;
+	esac
+done
+
